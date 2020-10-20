@@ -1,4 +1,6 @@
 file(REMOVE_RECURSE
+  "CMakeFiles/tracking.dir/src/DeepSORT.cpp.o"
+  "CMakeFiles/tracking.dir/src/Extractor.cpp.o"
   "CMakeFiles/tracking.dir/src/Hungarian.cpp.o"
   "CMakeFiles/tracking.dir/src/KalmanTracker.cpp.o"
   "CMakeFiles/tracking.dir/src/SORT.cpp.o"

@@ -162,7 +162,7 @@ CMAKE_PROJECT_DESCRIPTION:STATIC=
 CMAKE_PROJECT_HOMEPAGE_URL:STATIC=
 
 //Value Computed by CMake
-CMAKE_PROJECT_NAME:STATIC=darnet-deepsort-reimplement
+CMAKE_PROJECT_NAME:STATIC=darknet-sort
 
 //Path to a program.
 CMAKE_RANLIB:FILEPATH=/usr/bin/ranlib
@@ -414,10 +414,22 @@ TORCH_LIBRARY:FILEPATH=/home/nuller-cv/soft/libtorch/lib/libtorch.so
 darknet:FILEPATH=/home/nuller-cv/soft/darknet/libdarknet.so
 
 //Value Computed by CMake
+darknet-sort_BINARY_DIR:STATIC=/home/nuller-cv/Program/ar_hub_test/weixu_reimplement_SORT/darknet_sort
+
+//Value Computed by CMake
+darknet-sort_SOURCE_DIR:STATIC=/home/nuller-cv/Program/ar_hub_test/weixu_reimplement_SORT/darknet_sort
+
+//Value Computed by CMake
 darnet-deepsort-reimplement_BINARY_DIR:STATIC=/home/nuller-cv/Program/ar_hub_test/weixu_reimplement_SORT/darknet_sort
 
 //Value Computed by CMake
 darnet-deepsort-reimplement_SOURCE_DIR:STATIC=/home/nuller-cv/Program/ar_hub_test/weixu_reimplement_SORT/darknet_sort
+
+//Value Computed by CMake
+darnet-sort_BINARY_DIR:STATIC=/home/nuller-cv/Program/ar_hub_test/weixu_reimplement_SORT/darknet_sort
+
+//Value Computed by CMake
+darnet-sort_SOURCE_DIR:STATIC=/home/nuller-cv/Program/ar_hub_test/weixu_reimplement_SORT/darknet_sort
 
 //Dependencies for the target
 tracking_LIB_DEPENDS:STATIC=general;opencv_calib3d;general;opencv_core;general;opencv_dnn;general;opencv_features2d;general;opencv_flann;general;opencv_gapi;general;opencv_highgui;general;opencv_imgcodecs;general;opencv_imgproc;general;opencv_ml;general;opencv_objdetect;general;opencv_photo;general;opencv_stitching;general;opencv_video;general;opencv_videoio;general;opencv_calib3d;general;opencv_core;general;opencv_dnn;general;opencv_features2d;general;opencv_flann;general;opencv_gapi;general;opencv_highgui;general;opencv_imgcodecs;general;opencv_imgproc;general;opencv_ml;general;opencv_objdetect;general;opencv_photo;general;opencv_stitching;general;opencv_video;general;opencv_videoio;general;torch;torch_library;/home/nuller-cv/soft/libtorch/lib/libc10.so;/usr/local/cuda/lib64/stubs/libcuda.so;/usr/local/cuda/lib64/libnvrtc.so;/usr/local/cuda/lib64/libnvToolsExt.so;/usr/local/cuda/lib64/libcudart.so;/home/nuller-cv/soft/libtorch/lib/libc10_cuda.so;

@@ -133,12 +133,12 @@ tracking/clean: tracking/CMakeFiles/tracking.dir/clean
 tracking/CMakeFiles/tracking.dir/all:
 	$(MAKE) $(MAKESILENT) -f tracking/CMakeFiles/tracking.dir/build.make tracking/CMakeFiles/tracking.dir/depend
 	$(MAKE) $(MAKESILENT) -f tracking/CMakeFiles/tracking.dir/build.make tracking/CMakeFiles/tracking.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/nuller-cv/Program/ar_hub_test/weixu_reimplement_SORT/darknet_sort/CMakeFiles --progress-num=3,4,5,6,7,8 "Built target tracking"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/nuller-cv/Program/ar_hub_test/weixu_reimplement_SORT/darknet_sort/CMakeFiles --progress-num=3,4,5,6,7,8,9,10 "Built target tracking"
 .PHONY : tracking/CMakeFiles/tracking.dir/all
 
 # Build rule for subdir invocation for target.
 tracking/CMakeFiles/tracking.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/nuller-cv/Program/ar_hub_test/weixu_reimplement_SORT/darknet_sort/CMakeFiles 6
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/nuller-cv/Program/ar_hub_test/weixu_reimplement_SORT/darknet_sort/CMakeFiles 8
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 tracking/CMakeFiles/tracking.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /home/nuller-cv/Program/ar_hub_test/weixu_reimplement_SORT/darknet_sort/CMakeFiles 0
 .PHONY : tracking/CMakeFiles/tracking.dir/rule
@@ -165,7 +165,7 @@ processing/CMakeFiles/processing.dir/all: tracking/CMakeFiles/tracking.dir/all
 
 # Build rule for subdir invocation for target.
 processing/CMakeFiles/processing.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/nuller-cv/Program/ar_hub_test/weixu_reimplement_SORT/darknet_sort/CMakeFiles 8
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/nuller-cv/Program/ar_hub_test/weixu_reimplement_SORT/darknet_sort/CMakeFiles 10
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 processing/CMakeFiles/processing.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /home/nuller-cv/Program/ar_hub_test/weixu_reimplement_SORT/darknet_sort/CMakeFiles 0
 .PHONY : processing/CMakeFiles/processing.dir/rule

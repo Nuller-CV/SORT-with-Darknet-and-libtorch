@@ -145,6 +145,60 @@ tracking/fast:
 	cd /home/nuller-cv/Program/ar_hub_test/weixu_reimplement_SORT/darknet_sort && $(MAKE) $(MAKESILENT) -f tracking/CMakeFiles/tracking.dir/build.make tracking/CMakeFiles/tracking.dir/build
 .PHONY : tracking/fast
 
+src/DeepSORT.o: src/DeepSORT.cpp.o
+
+.PHONY : src/DeepSORT.o
+
+# target to build an object file
+src/DeepSORT.cpp.o:
+	cd /home/nuller-cv/Program/ar_hub_test/weixu_reimplement_SORT/darknet_sort && $(MAKE) $(MAKESILENT) -f tracking/CMakeFiles/tracking.dir/build.make tracking/CMakeFiles/tracking.dir/src/DeepSORT.cpp.o
+.PHONY : src/DeepSORT.cpp.o
+
+src/DeepSORT.i: src/DeepSORT.cpp.i
+
+.PHONY : src/DeepSORT.i
+
+# target to preprocess a source file
+src/DeepSORT.cpp.i:
+	cd /home/nuller-cv/Program/ar_hub_test/weixu_reimplement_SORT/darknet_sort && $(MAKE) $(MAKESILENT) -f tracking/CMakeFiles/tracking.dir/build.make tracking/CMakeFiles/tracking.dir/src/DeepSORT.cpp.i
+.PHONY : src/DeepSORT.cpp.i
+
+src/DeepSORT.s: src/DeepSORT.cpp.s
+
+.PHONY : src/DeepSORT.s
+
+# target to generate assembly for a file
+src/DeepSORT.cpp.s:
+	cd /home/nuller-cv/Program/ar_hub_test/weixu_reimplement_SORT/darknet_sort && $(MAKE) $(MAKESILENT) -f tracking/CMakeFiles/tracking.dir/build.make tracking/CMakeFiles/tracking.dir/src/DeepSORT.cpp.s
+.PHONY : src/DeepSORT.cpp.s
+
+src/Extractor.o: src/Extractor.cpp.o
+
+.PHONY : src/Extractor.o
+
+# target to build an object file
+src/Extractor.cpp.o:
+	cd /home/nuller-cv/Program/ar_hub_test/weixu_reimplement_SORT/darknet_sort && $(MAKE) $(MAKESILENT) -f tracking/CMakeFiles/tracking.dir/build.make tracking/CMakeFiles/tracking.dir/src/Extractor.cpp.o
+.PHONY : src/Extractor.cpp.o
+
+src/Extractor.i: src/Extractor.cpp.i
+
+.PHONY : src/Extractor.i
+
+# target to preprocess a source file
+src/Extractor.cpp.i:
+	cd /home/nuller-cv/Program/ar_hub_test/weixu_reimplement_SORT/darknet_sort && $(MAKE) $(MAKESILENT) -f tracking/CMakeFiles/tracking.dir/build.make tracking/CMakeFiles/tracking.dir/src/Extractor.cpp.i
+.PHONY : src/Extractor.cpp.i
+
+src/Extractor.s: src/Extractor.cpp.s
+
+.PHONY : src/Extractor.s
+
+# target to generate assembly for a file
+src/Extractor.cpp.s:
+	cd /home/nuller-cv/Program/ar_hub_test/weixu_reimplement_SORT/darknet_sort && $(MAKE) $(MAKESILENT) -f tracking/CMakeFiles/tracking.dir/build.make tracking/CMakeFiles/tracking.dir/src/Extractor.cpp.s
+.PHONY : src/Extractor.cpp.s
+
 src/Hungarian.o: src/Hungarian.cpp.o
 
 .PHONY : src/Hungarian.o
@@ -289,6 +343,12 @@ help:
 	@echo "... edit_cache"
 	@echo "... rebuild_cache"
 	@echo "... tracking"
+	@echo "... src/DeepSORT.o"
+	@echo "... src/DeepSORT.i"
+	@echo "... src/DeepSORT.s"
+	@echo "... src/Extractor.o"
+	@echo "... src/Extractor.i"
+	@echo "... src/Extractor.s"
 	@echo "... src/Hungarian.o"
 	@echo "... src/Hungarian.i"
 	@echo "... src/Hungarian.s"

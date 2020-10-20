@@ -77,9 +77,35 @@ include tracking/CMakeFiles/tracking.dir/progress.make
 # Include the compile flags for this target's objects.
 include tracking/CMakeFiles/tracking.dir/flags.make
 
+tracking/CMakeFiles/tracking.dir/src/DeepSORT.cpp.o: tracking/CMakeFiles/tracking.dir/flags.make
+tracking/CMakeFiles/tracking.dir/src/DeepSORT.cpp.o: tracking/src/DeepSORT.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/nuller-cv/Program/ar_hub_test/weixu_reimplement_SORT/darknet_sort/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object tracking/CMakeFiles/tracking.dir/src/DeepSORT.cpp.o"
+	cd /home/nuller-cv/Program/ar_hub_test/weixu_reimplement_SORT/darknet_sort/tracking && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/tracking.dir/src/DeepSORT.cpp.o -c /home/nuller-cv/Program/ar_hub_test/weixu_reimplement_SORT/darknet_sort/tracking/src/DeepSORT.cpp
+
+tracking/CMakeFiles/tracking.dir/src/DeepSORT.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/tracking.dir/src/DeepSORT.cpp.i"
+	cd /home/nuller-cv/Program/ar_hub_test/weixu_reimplement_SORT/darknet_sort/tracking && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/nuller-cv/Program/ar_hub_test/weixu_reimplement_SORT/darknet_sort/tracking/src/DeepSORT.cpp > CMakeFiles/tracking.dir/src/DeepSORT.cpp.i
+
+tracking/CMakeFiles/tracking.dir/src/DeepSORT.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/tracking.dir/src/DeepSORT.cpp.s"
+	cd /home/nuller-cv/Program/ar_hub_test/weixu_reimplement_SORT/darknet_sort/tracking && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/nuller-cv/Program/ar_hub_test/weixu_reimplement_SORT/darknet_sort/tracking/src/DeepSORT.cpp -o CMakeFiles/tracking.dir/src/DeepSORT.cpp.s
+
+tracking/CMakeFiles/tracking.dir/src/Extractor.cpp.o: tracking/CMakeFiles/tracking.dir/flags.make
+tracking/CMakeFiles/tracking.dir/src/Extractor.cpp.o: tracking/src/Extractor.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/nuller-cv/Program/ar_hub_test/weixu_reimplement_SORT/darknet_sort/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object tracking/CMakeFiles/tracking.dir/src/Extractor.cpp.o"
+	cd /home/nuller-cv/Program/ar_hub_test/weixu_reimplement_SORT/darknet_sort/tracking && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/tracking.dir/src/Extractor.cpp.o -c /home/nuller-cv/Program/ar_hub_test/weixu_reimplement_SORT/darknet_sort/tracking/src/Extractor.cpp
+
+tracking/CMakeFiles/tracking.dir/src/Extractor.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/tracking.dir/src/Extractor.cpp.i"
+	cd /home/nuller-cv/Program/ar_hub_test/weixu_reimplement_SORT/darknet_sort/tracking && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/nuller-cv/Program/ar_hub_test/weixu_reimplement_SORT/darknet_sort/tracking/src/Extractor.cpp > CMakeFiles/tracking.dir/src/Extractor.cpp.i
+
+tracking/CMakeFiles/tracking.dir/src/Extractor.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/tracking.dir/src/Extractor.cpp.s"
+	cd /home/nuller-cv/Program/ar_hub_test/weixu_reimplement_SORT/darknet_sort/tracking && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/nuller-cv/Program/ar_hub_test/weixu_reimplement_SORT/darknet_sort/tracking/src/Extractor.cpp -o CMakeFiles/tracking.dir/src/Extractor.cpp.s
+
 tracking/CMakeFiles/tracking.dir/src/Hungarian.cpp.o: tracking/CMakeFiles/tracking.dir/flags.make
 tracking/CMakeFiles/tracking.dir/src/Hungarian.cpp.o: tracking/src/Hungarian.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/nuller-cv/Program/ar_hub_test/weixu_reimplement_SORT/darknet_sort/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object tracking/CMakeFiles/tracking.dir/src/Hungarian.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/nuller-cv/Program/ar_hub_test/weixu_reimplement_SORT/darknet_sort/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object tracking/CMakeFiles/tracking.dir/src/Hungarian.cpp.o"
 	cd /home/nuller-cv/Program/ar_hub_test/weixu_reimplement_SORT/darknet_sort/tracking && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/tracking.dir/src/Hungarian.cpp.o -c /home/nuller-cv/Program/ar_hub_test/weixu_reimplement_SORT/darknet_sort/tracking/src/Hungarian.cpp
 
 tracking/CMakeFiles/tracking.dir/src/Hungarian.cpp.i: cmake_force
@@ -92,7 +118,7 @@ tracking/CMakeFiles/tracking.dir/src/Hungarian.cpp.s: cmake_force
 
 tracking/CMakeFiles/tracking.dir/src/KalmanTracker.cpp.o: tracking/CMakeFiles/tracking.dir/flags.make
 tracking/CMakeFiles/tracking.dir/src/KalmanTracker.cpp.o: tracking/src/KalmanTracker.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/nuller-cv/Program/ar_hub_test/weixu_reimplement_SORT/darknet_sort/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object tracking/CMakeFiles/tracking.dir/src/KalmanTracker.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/nuller-cv/Program/ar_hub_test/weixu_reimplement_SORT/darknet_sort/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object tracking/CMakeFiles/tracking.dir/src/KalmanTracker.cpp.o"
 	cd /home/nuller-cv/Program/ar_hub_test/weixu_reimplement_SORT/darknet_sort/tracking && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/tracking.dir/src/KalmanTracker.cpp.o -c /home/nuller-cv/Program/ar_hub_test/weixu_reimplement_SORT/darknet_sort/tracking/src/KalmanTracker.cpp
 
 tracking/CMakeFiles/tracking.dir/src/KalmanTracker.cpp.i: cmake_force
@@ -105,7 +131,7 @@ tracking/CMakeFiles/tracking.dir/src/KalmanTracker.cpp.s: cmake_force
 
 tracking/CMakeFiles/tracking.dir/src/SORT.cpp.o: tracking/CMakeFiles/tracking.dir/flags.make
 tracking/CMakeFiles/tracking.dir/src/SORT.cpp.o: tracking/src/SORT.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/nuller-cv/Program/ar_hub_test/weixu_reimplement_SORT/darknet_sort/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object tracking/CMakeFiles/tracking.dir/src/SORT.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/nuller-cv/Program/ar_hub_test/weixu_reimplement_SORT/darknet_sort/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building CXX object tracking/CMakeFiles/tracking.dir/src/SORT.cpp.o"
 	cd /home/nuller-cv/Program/ar_hub_test/weixu_reimplement_SORT/darknet_sort/tracking && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/tracking.dir/src/SORT.cpp.o -c /home/nuller-cv/Program/ar_hub_test/weixu_reimplement_SORT/darknet_sort/tracking/src/SORT.cpp
 
 tracking/CMakeFiles/tracking.dir/src/SORT.cpp.i: cmake_force
@@ -118,7 +144,7 @@ tracking/CMakeFiles/tracking.dir/src/SORT.cpp.s: cmake_force
 
 tracking/CMakeFiles/tracking.dir/src/TrackerManager.cpp.o: tracking/CMakeFiles/tracking.dir/flags.make
 tracking/CMakeFiles/tracking.dir/src/TrackerManager.cpp.o: tracking/src/TrackerManager.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/nuller-cv/Program/ar_hub_test/weixu_reimplement_SORT/darknet_sort/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object tracking/CMakeFiles/tracking.dir/src/TrackerManager.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/nuller-cv/Program/ar_hub_test/weixu_reimplement_SORT/darknet_sort/CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Building CXX object tracking/CMakeFiles/tracking.dir/src/TrackerManager.cpp.o"
 	cd /home/nuller-cv/Program/ar_hub_test/weixu_reimplement_SORT/darknet_sort/tracking && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/tracking.dir/src/TrackerManager.cpp.o -c /home/nuller-cv/Program/ar_hub_test/weixu_reimplement_SORT/darknet_sort/tracking/src/TrackerManager.cpp
 
 tracking/CMakeFiles/tracking.dir/src/TrackerManager.cpp.i: cmake_force
@@ -131,7 +157,7 @@ tracking/CMakeFiles/tracking.dir/src/TrackerManager.cpp.s: cmake_force
 
 tracking/CMakeFiles/tracking.dir/src/nn_matching.cpp.o: tracking/CMakeFiles/tracking.dir/flags.make
 tracking/CMakeFiles/tracking.dir/src/nn_matching.cpp.o: tracking/src/nn_matching.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/nuller-cv/Program/ar_hub_test/weixu_reimplement_SORT/darknet_sort/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building CXX object tracking/CMakeFiles/tracking.dir/src/nn_matching.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/nuller-cv/Program/ar_hub_test/weixu_reimplement_SORT/darknet_sort/CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "Building CXX object tracking/CMakeFiles/tracking.dir/src/nn_matching.cpp.o"
 	cd /home/nuller-cv/Program/ar_hub_test/weixu_reimplement_SORT/darknet_sort/tracking && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/tracking.dir/src/nn_matching.cpp.o -c /home/nuller-cv/Program/ar_hub_test/weixu_reimplement_SORT/darknet_sort/tracking/src/nn_matching.cpp
 
 tracking/CMakeFiles/tracking.dir/src/nn_matching.cpp.i: cmake_force
@@ -144,6 +170,8 @@ tracking/CMakeFiles/tracking.dir/src/nn_matching.cpp.s: cmake_force
 
 # Object files for target tracking
 tracking_OBJECTS = \
+"CMakeFiles/tracking.dir/src/DeepSORT.cpp.o" \
+"CMakeFiles/tracking.dir/src/Extractor.cpp.o" \
 "CMakeFiles/tracking.dir/src/Hungarian.cpp.o" \
 "CMakeFiles/tracking.dir/src/KalmanTracker.cpp.o" \
 "CMakeFiles/tracking.dir/src/SORT.cpp.o" \
@@ -153,6 +181,8 @@ tracking_OBJECTS = \
 # External object files for target tracking
 tracking_EXTERNAL_OBJECTS =
 
+tracking/libtracking.so: tracking/CMakeFiles/tracking.dir/src/DeepSORT.cpp.o
+tracking/libtracking.so: tracking/CMakeFiles/tracking.dir/src/Extractor.cpp.o
 tracking/libtracking.so: tracking/CMakeFiles/tracking.dir/src/Hungarian.cpp.o
 tracking/libtracking.so: tracking/CMakeFiles/tracking.dir/src/KalmanTracker.cpp.o
 tracking/libtracking.so: tracking/CMakeFiles/tracking.dir/src/SORT.cpp.o
@@ -190,7 +220,7 @@ tracking/libtracking.so: /usr/lib/x86_64-linux-gnu/libcudnn.so
 tracking/libtracking.so: /usr/local/cuda/lib64/libnvToolsExt.so
 tracking/libtracking.so: /usr/local/cuda/lib64/libcudart.so
 tracking/libtracking.so: tracking/CMakeFiles/tracking.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/nuller-cv/Program/ar_hub_test/weixu_reimplement_SORT/darknet_sort/CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Linking CXX shared library libtracking.so"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/nuller-cv/Program/ar_hub_test/weixu_reimplement_SORT/darknet_sort/CMakeFiles --progress-num=$(CMAKE_PROGRESS_8) "Linking CXX shared library libtracking.so"
 	cd /home/nuller-cv/Program/ar_hub_test/weixu_reimplement_SORT/darknet_sort/tracking && $(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/tracking.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.

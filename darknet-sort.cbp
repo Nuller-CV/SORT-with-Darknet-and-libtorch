@@ -1,0 +1,281 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CodeBlocks_project_file>
+	<FileVersion major="1" minor="6"/>
+	<Project>
+		<Option title="darknet-sort"/>
+		<Option makefile_is_custom="1"/>
+		<Option compiler="gcc"/>
+		<Option virtualFolders="CMake Files\;CMake Files\..\;CMake Files\..\..\;CMake Files\..\..\..\;CMake Files\..\..\..\..\;CMake Files\..\..\..\..\..\;CMake Files\..\..\..\..\..\..\;CMake Files\..\..\..\..\..\..\usr\;CMake Files\..\..\..\..\..\..\usr\local\;CMake Files\..\..\..\..\..\..\usr\local\lib\;CMake Files\..\..\..\..\..\..\usr\local\lib\cmake\;CMake Files\..\..\..\..\..\..\usr\local\lib\cmake\opencv4\;CMake Files\..\..\..\..\soft\;CMake Files\..\..\..\..\soft\libtorch\;CMake Files\..\..\..\..\soft\libtorch\share\;CMake Files\..\..\..\..\soft\libtorch\share\cmake\;CMake Files\..\..\..\..\soft\libtorch\share\cmake\Torch\;CMake Files\..\..\..\..\soft\libtorch\share\cmake\Caffe2\;CMake Files\..\..\..\..\soft\libtorch\share\cmake\Caffe2\public\;CMake Files\..\..\..\..\soft\libtorch\share\cmake\Caffe2\Modules_CUDA_fix\;CMake Files\..\..\..\..\soft\libtorch\share\cmake\Caffe2\Modules_CUDA_fix\upstream\;CMake Files\..\..\..\..\soft\libtorch\share\cmake\Caffe2\Modules_CUDA_fix\upstream\FindCUDA\;CMake Files\tracking\;CMake Files\processing\;"/>
+		<Build>
+			<Target title="all">
+				<Option working_dir="/home/nuller-cv/Program/ar_hub_test/weixu_reimplement_SORT/darknet_sort"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/home/nuller-cv/Program/ar_hub_test/weixu_reimplement_SORT/darknet_sort/Makefile&quot;  VERBOSE=1 all"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/home/nuller-cv/Program/ar_hub_test/weixu_reimplement_SORT/darknet_sort/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/home/nuller-cv/Program/ar_hub_test/weixu_reimplement_SORT/darknet_sort/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/home/nuller-cv/Program/ar_hub_test/weixu_reimplement_SORT/darknet_sort/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="rebuild_cache">
+				<Option working_dir="/home/nuller-cv/Program/ar_hub_test/weixu_reimplement_SORT/darknet_sort"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/home/nuller-cv/Program/ar_hub_test/weixu_reimplement_SORT/darknet_sort/Makefile&quot;  VERBOSE=1 rebuild_cache"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/home/nuller-cv/Program/ar_hub_test/weixu_reimplement_SORT/darknet_sort/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/home/nuller-cv/Program/ar_hub_test/weixu_reimplement_SORT/darknet_sort/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/home/nuller-cv/Program/ar_hub_test/weixu_reimplement_SORT/darknet_sort/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="edit_cache">
+				<Option working_dir="/home/nuller-cv/Program/ar_hub_test/weixu_reimplement_SORT/darknet_sort"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/home/nuller-cv/Program/ar_hub_test/weixu_reimplement_SORT/darknet_sort/Makefile&quot;  VERBOSE=1 edit_cache"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/home/nuller-cv/Program/ar_hub_test/weixu_reimplement_SORT/darknet_sort/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/home/nuller-cv/Program/ar_hub_test/weixu_reimplement_SORT/darknet_sort/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/home/nuller-cv/Program/ar_hub_test/weixu_reimplement_SORT/darknet_sort/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="tracking">
+				<Option output="/home/nuller-cv/Program/ar_hub_test/weixu_reimplement_SORT/darknet_sort/tracking/libtracking.so" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/nuller-cv/Program/ar_hub_test/weixu_reimplement_SORT/darknet_sort/tracking"/>
+				<Option object_output="./"/>
+				<Option type="3"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/home/nuller-cv/Program/ar_hub_test/weixu_reimplement_SORT/darknet_sort/tracking/include"/>
+					<Add directory="/home/nuller-cv/Program/ar_hub_test/weixu_reimplement_SORT/darknet_sort/tracking"/>
+					<Add directory="/home/nuller-cv/Program/ar_hub_test/weixu_reimplement_SORT/darknet_sort/tracking/src"/>
+					<Add directory="/usr/local/include/opencv4"/>
+					<Add directory="/home/nuller-cv/soft/libtorch/include"/>
+					<Add directory="/home/nuller-cv/soft/libtorch/include/torch/csrc/api/include"/>
+					<Add directory="/usr/local/cuda/include"/>
+					<Add directory="/usr/include/c++/9"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/9"/>
+					<Add directory="/usr/include/c++/9/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/9/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/home/nuller-cv/Program/ar_hub_test/weixu_reimplement_SORT/darknet_sort/tracking/Makefile&quot;  VERBOSE=1 tracking"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/home/nuller-cv/Program/ar_hub_test/weixu_reimplement_SORT/darknet_sort/tracking/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/home/nuller-cv/Program/ar_hub_test/weixu_reimplement_SORT/darknet_sort/tracking/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/home/nuller-cv/Program/ar_hub_test/weixu_reimplement_SORT/darknet_sort/tracking/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="tracking/fast">
+				<Option output="/home/nuller-cv/Program/ar_hub_test/weixu_reimplement_SORT/darknet_sort/tracking/libtracking.so" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/nuller-cv/Program/ar_hub_test/weixu_reimplement_SORT/darknet_sort/tracking"/>
+				<Option object_output="./"/>
+				<Option type="3"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/home/nuller-cv/Program/ar_hub_test/weixu_reimplement_SORT/darknet_sort/tracking/include"/>
+					<Add directory="/home/nuller-cv/Program/ar_hub_test/weixu_reimplement_SORT/darknet_sort/tracking"/>
+					<Add directory="/home/nuller-cv/Program/ar_hub_test/weixu_reimplement_SORT/darknet_sort/tracking/src"/>
+					<Add directory="/usr/local/include/opencv4"/>
+					<Add directory="/home/nuller-cv/soft/libtorch/include"/>
+					<Add directory="/home/nuller-cv/soft/libtorch/include/torch/csrc/api/include"/>
+					<Add directory="/usr/local/cuda/include"/>
+					<Add directory="/usr/include/c++/9"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/9"/>
+					<Add directory="/usr/include/c++/9/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/9/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/home/nuller-cv/Program/ar_hub_test/weixu_reimplement_SORT/darknet_sort/tracking/Makefile&quot;  VERBOSE=1 tracking/fast"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/home/nuller-cv/Program/ar_hub_test/weixu_reimplement_SORT/darknet_sort/tracking/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/home/nuller-cv/Program/ar_hub_test/weixu_reimplement_SORT/darknet_sort/tracking/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/home/nuller-cv/Program/ar_hub_test/weixu_reimplement_SORT/darknet_sort/tracking/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="processing">
+				<Option output="/home/nuller-cv/Program/ar_hub_test/weixu_reimplement_SORT/darknet_sort/bin/processing" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/nuller-cv/Program/ar_hub_test/weixu_reimplement_SORT/darknet_sort/bin"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add option="-DOPENCV"/>
+					<Add option="-DGPU"/>
+					<Add directory="/home/nuller-cv/soft/darknet/include"/>
+					<Add directory="/home/nuller-cv/Program/ar_hub_test/weixu_reimplement_SORT/darknet_sort"/>
+					<Add directory="/home/nuller-cv/Program/ar_hub_test/weixu_reimplement_SORT/darknet_sort/tracking/include"/>
+					<Add directory="/home/nuller-cv/Program/ar_hub_test/weixu_reimplement_SORT/darknet_sort/tracking"/>
+					<Add directory="/usr/local/include/opencv4"/>
+					<Add directory="/usr/include/c++/9"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/9"/>
+					<Add directory="/usr/include/c++/9/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/9/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/home/nuller-cv/Program/ar_hub_test/weixu_reimplement_SORT/darknet_sort/processing/Makefile&quot;  VERBOSE=1 processing"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/home/nuller-cv/Program/ar_hub_test/weixu_reimplement_SORT/darknet_sort/processing/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/home/nuller-cv/Program/ar_hub_test/weixu_reimplement_SORT/darknet_sort/processing/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/home/nuller-cv/Program/ar_hub_test/weixu_reimplement_SORT/darknet_sort/processing/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="processing/fast">
+				<Option output="/home/nuller-cv/Program/ar_hub_test/weixu_reimplement_SORT/darknet_sort/bin/processing" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/nuller-cv/Program/ar_hub_test/weixu_reimplement_SORT/darknet_sort/bin"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add option="-DOPENCV"/>
+					<Add option="-DGPU"/>
+					<Add directory="/home/nuller-cv/soft/darknet/include"/>
+					<Add directory="/home/nuller-cv/Program/ar_hub_test/weixu_reimplement_SORT/darknet_sort"/>
+					<Add directory="/home/nuller-cv/Program/ar_hub_test/weixu_reimplement_SORT/darknet_sort/tracking/include"/>
+					<Add directory="/home/nuller-cv/Program/ar_hub_test/weixu_reimplement_SORT/darknet_sort/tracking"/>
+					<Add directory="/usr/local/include/opencv4"/>
+					<Add directory="/usr/include/c++/9"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/9"/>
+					<Add directory="/usr/include/c++/9/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/9/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/home/nuller-cv/Program/ar_hub_test/weixu_reimplement_SORT/darknet_sort/processing/Makefile&quot;  VERBOSE=1 processing/fast"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/home/nuller-cv/Program/ar_hub_test/weixu_reimplement_SORT/darknet_sort/processing/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/home/nuller-cv/Program/ar_hub_test/weixu_reimplement_SORT/darknet_sort/processing/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/home/nuller-cv/Program/ar_hub_test/weixu_reimplement_SORT/darknet_sort/processing/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+		</Build>
+		<Unit filename="/home/nuller-cv/Program/ar_hub_test/weixu_reimplement_SORT/darknet_sort/processing/main.cpp">
+			<Option target="processing"/>
+		</Unit>
+		<Unit filename="/home/nuller-cv/Program/ar_hub_test/weixu_reimplement_SORT/darknet_sort/tracking/src/DeepSORT.cpp">
+			<Option target="tracking"/>
+		</Unit>
+		<Unit filename="/home/nuller-cv/Program/ar_hub_test/weixu_reimplement_SORT/darknet_sort/tracking/src/Extractor.cpp">
+			<Option target="tracking"/>
+		</Unit>
+		<Unit filename="/home/nuller-cv/Program/ar_hub_test/weixu_reimplement_SORT/darknet_sort/tracking/src/Extractor.h">
+			<Option target="tracking"/>
+		</Unit>
+		<Unit filename="/home/nuller-cv/Program/ar_hub_test/weixu_reimplement_SORT/darknet_sort/tracking/src/Hungarian.cpp">
+			<Option target="tracking"/>
+		</Unit>
+		<Unit filename="/home/nuller-cv/Program/ar_hub_test/weixu_reimplement_SORT/darknet_sort/tracking/src/Hungarian.h">
+			<Option target="tracking"/>
+		</Unit>
+		<Unit filename="/home/nuller-cv/Program/ar_hub_test/weixu_reimplement_SORT/darknet_sort/tracking/src/KalmanTracker.cpp">
+			<Option target="tracking"/>
+		</Unit>
+		<Unit filename="/home/nuller-cv/Program/ar_hub_test/weixu_reimplement_SORT/darknet_sort/tracking/src/KalmanTracker.h">
+			<Option target="tracking"/>
+		</Unit>
+		<Unit filename="/home/nuller-cv/Program/ar_hub_test/weixu_reimplement_SORT/darknet_sort/tracking/src/SORT.cpp">
+			<Option target="tracking"/>
+		</Unit>
+		<Unit filename="/home/nuller-cv/Program/ar_hub_test/weixu_reimplement_SORT/darknet_sort/tracking/src/TrackerManager.cpp">
+			<Option target="tracking"/>
+		</Unit>
+		<Unit filename="/home/nuller-cv/Program/ar_hub_test/weixu_reimplement_SORT/darknet_sort/tracking/src/TrackerManager.h">
+			<Option target="tracking"/>
+		</Unit>
+		<Unit filename="/home/nuller-cv/Program/ar_hub_test/weixu_reimplement_SORT/darknet_sort/tracking/src/nn_matching.cpp">
+			<Option target="tracking"/>
+		</Unit>
+		<Unit filename="/home/nuller-cv/Program/ar_hub_test/weixu_reimplement_SORT/darknet_sort/tracking/src/nn_matching.h">
+			<Option target="tracking"/>
+		</Unit>
+		<Unit filename="/home/nuller-cv/Program/ar_hub_test/weixu_reimplement_SORT/darknet_sort/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\"/>
+		</Unit>
+		<Unit filename="/home/nuller-cv/Program/ar_hub_test/weixu_reimplement_SORT/darknet_sort/config.h.in">
+			<Option virtualFolder="CMake Files\"/>
+		</Unit>
+		<Unit filename="/home/nuller-cv/Program/ar_hub_test/weixu_reimplement_SORT/darknet_sort/detect_cuda_compute_capabilities.cpp">
+			<Option virtualFolder="CMake Files\"/>
+		</Unit>
+		<Unit filename="/home/nuller-cv/Program/ar_hub_test/weixu_reimplement_SORT/darknet_sort/detect_cuda_version.cc">
+			<Option virtualFolder="CMake Files\"/>
+		</Unit>
+		<Unit filename="/home/nuller-cv/Program/ar_hub_test/weixu_reimplement_SORT/darknet_sort/../../../../../../usr/local/lib/cmake/opencv4/OpenCVConfig-version.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\..\..\usr\local\lib\cmake\opencv4\"/>
+		</Unit>
+		<Unit filename="/home/nuller-cv/Program/ar_hub_test/weixu_reimplement_SORT/darknet_sort/../../../../../../usr/local/lib/cmake/opencv4/OpenCVConfig.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\..\..\usr\local\lib\cmake\opencv4\"/>
+		</Unit>
+		<Unit filename="/home/nuller-cv/Program/ar_hub_test/weixu_reimplement_SORT/darknet_sort/../../../../../../usr/local/lib/cmake/opencv4/OpenCVModules-release.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\..\..\usr\local\lib\cmake\opencv4\"/>
+		</Unit>
+		<Unit filename="/home/nuller-cv/Program/ar_hub_test/weixu_reimplement_SORT/darknet_sort/../../../../../../usr/local/lib/cmake/opencv4/OpenCVModules.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\..\..\usr\local\lib\cmake\opencv4\"/>
+		</Unit>
+		<Unit filename="/home/nuller-cv/Program/ar_hub_test/weixu_reimplement_SORT/darknet_sort/../../../../soft/libtorch/share/cmake/Torch/TorchConfig.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\soft\libtorch\share\cmake\Torch\"/>
+		</Unit>
+		<Unit filename="/home/nuller-cv/Program/ar_hub_test/weixu_reimplement_SORT/darknet_sort/../../../../soft/libtorch/share/cmake/Torch/TorchConfigVersion.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\soft\libtorch\share\cmake\Torch\"/>
+		</Unit>
+		<Unit filename="/home/nuller-cv/Program/ar_hub_test/weixu_reimplement_SORT/darknet_sort/../../../../soft/libtorch/share/cmake/Caffe2/Caffe2Config.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\soft\libtorch\share\cmake\Caffe2\"/>
+		</Unit>
+		<Unit filename="/home/nuller-cv/Program/ar_hub_test/weixu_reimplement_SORT/darknet_sort/../../../../soft/libtorch/share/cmake/Caffe2/Caffe2ConfigVersion.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\soft\libtorch\share\cmake\Caffe2\"/>
+		</Unit>
+		<Unit filename="/home/nuller-cv/Program/ar_hub_test/weixu_reimplement_SORT/darknet_sort/../../../../soft/libtorch/share/cmake/Caffe2/Caffe2Targets-release.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\soft\libtorch\share\cmake\Caffe2\"/>
+		</Unit>
+		<Unit filename="/home/nuller-cv/Program/ar_hub_test/weixu_reimplement_SORT/darknet_sort/../../../../soft/libtorch/share/cmake/Caffe2/Caffe2Targets.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\soft\libtorch\share\cmake\Caffe2\"/>
+		</Unit>
+		<Unit filename="/home/nuller-cv/Program/ar_hub_test/weixu_reimplement_SORT/darknet_sort/../../../../soft/libtorch/share/cmake/Caffe2/public/cuda.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\soft\libtorch\share\cmake\Caffe2\public\"/>
+		</Unit>
+		<Unit filename="/home/nuller-cv/Program/ar_hub_test/weixu_reimplement_SORT/darknet_sort/../../../../soft/libtorch/share/cmake/Caffe2/public/mkl.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\soft\libtorch\share\cmake\Caffe2\public\"/>
+		</Unit>
+		<Unit filename="/home/nuller-cv/Program/ar_hub_test/weixu_reimplement_SORT/darknet_sort/../../../../soft/libtorch/share/cmake/Caffe2/public/mkldnn.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\soft\libtorch\share\cmake\Caffe2\public\"/>
+		</Unit>
+		<Unit filename="/home/nuller-cv/Program/ar_hub_test/weixu_reimplement_SORT/darknet_sort/../../../../soft/libtorch/share/cmake/Caffe2/public/threads.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\soft\libtorch\share\cmake\Caffe2\public\"/>
+		</Unit>
+		<Unit filename="/home/nuller-cv/Program/ar_hub_test/weixu_reimplement_SORT/darknet_sort/../../../../soft/libtorch/share/cmake/Caffe2/public/utils.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\soft\libtorch\share\cmake\Caffe2\public\"/>
+		</Unit>
+		<Unit filename="/home/nuller-cv/Program/ar_hub_test/weixu_reimplement_SORT/darknet_sort/../../../../soft/libtorch/share/cmake/Caffe2/Modules_CUDA_fix/FindCUDA.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\soft\libtorch\share\cmake\Caffe2\Modules_CUDA_fix\"/>
+		</Unit>
+		<Unit filename="/home/nuller-cv/Program/ar_hub_test/weixu_reimplement_SORT/darknet_sort/../../../../soft/libtorch/share/cmake/Caffe2/Modules_CUDA_fix/FindCUDNN.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\soft\libtorch\share\cmake\Caffe2\Modules_CUDA_fix\"/>
+		</Unit>
+		<Unit filename="/home/nuller-cv/Program/ar_hub_test/weixu_reimplement_SORT/darknet_sort/../../../../soft/libtorch/share/cmake/Caffe2/Modules_CUDA_fix/upstream/CMakeInitializeConfigs.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\soft\libtorch\share\cmake\Caffe2\Modules_CUDA_fix\upstream\"/>
+		</Unit>
+		<Unit filename="/home/nuller-cv/Program/ar_hub_test/weixu_reimplement_SORT/darknet_sort/../../../../soft/libtorch/share/cmake/Caffe2/Modules_CUDA_fix/upstream/FindCUDA.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\soft\libtorch\share\cmake\Caffe2\Modules_CUDA_fix\upstream\"/>
+		</Unit>
+		<Unit filename="/home/nuller-cv/Program/ar_hub_test/weixu_reimplement_SORT/darknet_sort/../../../../soft/libtorch/share/cmake/Caffe2/Modules_CUDA_fix/upstream/FindPackageHandleStandardArgs.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\soft\libtorch\share\cmake\Caffe2\Modules_CUDA_fix\upstream\"/>
+		</Unit>
+		<Unit filename="/home/nuller-cv/Program/ar_hub_test/weixu_reimplement_SORT/darknet_sort/../../../../soft/libtorch/share/cmake/Caffe2/Modules_CUDA_fix/upstream/FindPackageMessage.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\soft\libtorch\share\cmake\Caffe2\Modules_CUDA_fix\upstream\"/>
+		</Unit>
+		<Unit filename="/home/nuller-cv/Program/ar_hub_test/weixu_reimplement_SORT/darknet_sort/../../../../soft/libtorch/share/cmake/Caffe2/Modules_CUDA_fix/upstream/FindCUDA/select_compute_arch.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\soft\libtorch\share\cmake\Caffe2\Modules_CUDA_fix\upstream\FindCUDA\"/>
+		</Unit>
+		<Unit filename="/home/nuller-cv/Program/ar_hub_test/weixu_reimplement_SORT/darknet_sort/tracking/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\tracking\"/>
+		</Unit>
+		<Unit filename="/home/nuller-cv/Program/ar_hub_test/weixu_reimplement_SORT/darknet_sort/processing/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\processing\"/>
+		</Unit>
+	</Project>
+</CodeBlocks_project_file>
